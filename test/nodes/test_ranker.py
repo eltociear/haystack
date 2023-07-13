@@ -5,7 +5,8 @@ from unittest.mock import patch
 
 from haystack.schema import Document
 from haystack.nodes.ranker.base import BaseRanker
-from haystack.nodes.ranker import SentenceTransformersRanker, CohereRanker, RecentnessRanker
+from haystack.nodes.ranker import SentenceTransformersRanker, CohereRanker
+from haystack.nodes.ranker.recentness_ranker import RecentnessRanker
 from haystack.errors import HaystackError
 
 
